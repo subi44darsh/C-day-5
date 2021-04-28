@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main() {
+        DateTime DOB= new DateTime(1999,7,14);
+        DateTime time=DateTime.Now;
+        int day=time.Day-DOB.Day;
+       int month=time.Month-DOB.Month;
+       int year=time.Year-DOB.Year;
+       Console.WriteLine("Age:"+year);
+       }
+}
