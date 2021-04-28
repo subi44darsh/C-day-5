@@ -1,0 +1,11 @@
+using System;
+
+class Program
+{
+    static void Main() {
+       string date=DateTime.UtcNow.ToString("D");
+       Console.WriteLine("{0}",date);
+          string time =DateTime.Now.ToString("T");
+             Console.WriteLine( "{0}",time);
+       }
+}
